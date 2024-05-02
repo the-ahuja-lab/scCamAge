@@ -1,4 +1,4 @@
-<div align="center"> <h1><I>CamAge</I> </h1> </div>
+<div align="center"> <h1>CamAge </h1> </div>
  <br>
 <div align="center">
 <img src="Data/Images/CamAge.png"></div>
