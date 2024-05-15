@@ -13,13 +13,14 @@ This is a one-time task that must be completed to use the CamAge module
 1. Creation of Conda Environment
 ```bash
 conda create --name CamAge
-conda init bash
 conda activate CamAge
 ```
 2. Installation of CamAge
 ```Python
 !pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
+
+```
+```Python
 pip install -i https://test.pypi.org/simple/ CamAge==0.0.4
 ```
-
 
