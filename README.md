@@ -23,6 +23,7 @@ pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorc
 ```Python
 pip install -i https://test.pypi.org/simple/ CamAge==0.0.4
 ```
+
 #### Segmentation of yeast images
 ```Python
 from CamAge.module1.main import perform_segmentation
@@ -37,4 +38,16 @@ from CamAge.module2.cont import perform_contour_analysis
 perform_contour_analysis(dir_raw, dir_mask, dir_contour, out_dir)
 ```
 
+#### Extracting micrographs and morphological features of yeast
+```Python
+from CamAge.module2.cont import perform_contour_analysis
+perform_contour_analysis(dir_raw, dir_mask, dir_contour, out_dir)
+```
+
+#### CamAge model predictions
+```Python
+from CamAge.module3.CamAgeModel import predict_images
+predict_images(input_folder, output_folder, explainability=True)
+
+```
 
