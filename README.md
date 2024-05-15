@@ -35,7 +35,6 @@ perform_segmentation(input_folder,output_folder)
 ```Python
 from CamAge.module2.cont import perform_contour_analysis
 perform_contour_analysis(dir_raw, dir_mask, dir_contour, out_dir)
-)
 ```
 
 
