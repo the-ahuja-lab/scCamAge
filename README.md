@@ -31,12 +31,32 @@ input_folder = path/to/input_folder
 output_folder = path/to/output_folder
 perform_segmentation(input_folder,output_folder)
 ```
+Additional arguments 
 
+    Parameters:
+    - input_folder (str): Path to the input folder
+    - output_folder (str): Path to the output folder
+
+    Returns:
+    - masks: mask of yeast images (.jpg, .tiff)
+    - preprocessed_images: preprocessed images yeast images
+    
 #### Extracting micrographs and morphological features
 ```Python
 from CamAge.module2.cont import perform_contour_analysis
 perform_contour_analysis(dir_raw, dir_mask, dir_contour, out_dir)
 ```
+Additional arguments 
+
+    Parameters:
+    - input_folder (str): Path to the input folder
+    - output_folder (str): Path to the output folder
+
+    Returns:
+    - masks: mask of yeast images (.jpg, .tiff)
+    - preprocessed_images: preprocessed images yeast images
+
+
 
 #### Extracting micrographs and morphological features of yeast
 ```Python
