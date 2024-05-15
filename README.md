@@ -6,4 +6,19 @@
 <div align="center"><b>An Image-based Intelligent Lens for single-cell Age Prediction and its Aging-associated Bioactivities</b></div><br><br>
 An advanced transfer learning framework utilizing spatiotemporal information from phase-contrast images to predict yeast cell age at single-cell resolution. In addition, CamAge integrates predictive models for various aging-related biological processes, such as genomic instability, reactive oxygen species, mitochondrial content, and potential, among others, and also calculates cellular morphometric parameters.
 
-# How to use the CamAge package
+<div align="center"># How to use the CamAge package</div>
+#### Installation of CamAge package
+This is a one-time task that must be completed to use the CamAge module
+1. Creation of Conda Environment
+```bash
+conda create --name CamAge
+conda init bash
+conda activate CamAge
+```
+2. Installation of CamAge
+```Python
+!pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
+pip install -i https://test.pypi.org/simple/ CamAge==0.0.4
+```
+
+
