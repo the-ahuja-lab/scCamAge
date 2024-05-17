@@ -1,6 +1,3 @@
-# ReadMe For scripts
-
-Status: Not started
 
 # User Guide for Running Analysis Scripts
 
