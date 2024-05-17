@@ -31,14 +31,14 @@ This section provides detailed steps for using the segmentation module.
 conda activate yeastsegmentation
 ```
 
-1. Download the folder yeast_segmentation-master
+2. Download the folder yeast_segmentation-master
 
 ```bash
   wget("https://zenodo.org/records/11184213/files/yeast_segmentation-master.zip?download=1")
 ```
 
-1. In folder yeast_segmentation-master/opts.py change the input directory and output directory paths
-2. Go to yeast_segmentation-master folder and run command 
+3. In folder yeast_segmentation-master/opts.py change the input directory and output directory paths
+4. Go to yeast_segmentation-master folder and run command 
 
 ```bash
 python segmentation.py
@@ -58,13 +58,13 @@ This section provides detailed steps for using the CamAge Predictor module.
 conda activate CamAge
 ```
 
-1. Download pre-trained models
+2. Download pre-trained models
 
 ```bash
   wget("https://zenodo.org/records/11184213/files/Models.zip?download=1")
 ```
 
-1. Use well commented CamAge_predictor_module.ipynb for the prediction modules.
+3. Use well commented CamAge_predictor_module.ipynb for the prediction modules.
 
 ---
 
@@ -74,4 +74,4 @@ conda activate CamAge
 
 Notebook_to_retrain_dataset.ipynb 
 
-For example purposes we have used CPT dataset ( [https://doi.org/10.5281/zenodo.11184213](https://doi.org/10.5281/zenodo.11184213)).
+For example purposes, we have used the CPT dataset (https://doi.org/10.5281/zenodo.11184213).
