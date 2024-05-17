@@ -1,4 +1,4 @@
-name: yeastsegemntation2
+name: yeastsegmentation
 channels:
   - defaults
 dependencies:
