@@ -12,6 +12,7 @@ There are two environments required for the CamAge modules. Users need to config
 | environment_yeastsegemntation.yml | For segmentation of yeast images |
 | environment_CamAge.yml | For CamAge modules |
 
+
 ```bash
 conda env create -f environment.yml
 ```
