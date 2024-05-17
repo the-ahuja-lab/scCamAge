@@ -3,7 +3,7 @@
 
 ## Section 1: Setting Up Environments
 
-Their are two environments that have been used in the CamAge modules, user need to use .yml files for the setting of these environments. This guide is intended for users who will be utilizing scripts to perform analysis.
+Two environments have been used in the CamAge modules; users need to use .yml files to set these environments. This guide is intended for users who will be utilizing scripts to perform analysis.
 
 There are two environments required for the CamAge modules. Users need to configure these environments using the provided .yml files.
 
