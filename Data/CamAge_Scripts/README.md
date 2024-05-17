@@ -5,11 +5,10 @@
 
 Two environments have been used in the CamAge modules; users need to use .yml files to set these environments. This guide is intended for users who will be utilizing scripts to perform analysis.
 
-There are two environments required for the CamAge modules. Users need to configure these environments using the provided .yml files.
 
 | Environment Name | Details |
 | --- | --- |
-| environment_yeastsegemntation.yml | For segmentation of yeast images |
+| environment_yeastsegmentation.yml | For segmentation of yeast images |
 | environment_CamAge.yml | For CamAge modules |
 
 
@@ -64,13 +63,13 @@ conda activate CamAge
   wget("https://zenodo.org/records/11184213/files/Models.zip?download=1")
 ```
 
-3. Use well commented CamAge_predictor_module.ipynb for the prediction modules.
+3. Use CamAge_predictor_module.ipynb for the prediction modules.
 
 ---
 
 ---
 
-## NOTE : Retrain models using CamAge weights
+## NOTE: Use the following notebook to retrain models using CamAge weight
 
 Notebook_to_retrain_dataset.ipynb 
 
