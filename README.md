@@ -39,6 +39,7 @@ To start the container again, access its terminal.
 ```
 $ docker start <container-ID>
 $ docker exec -it <container-ID> bash
+```
 
 ## Input/Output
 
