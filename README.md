@@ -6,7 +6,6 @@
 <div align="center"><b>An Image-based Intelligent Lens for single-cell Age Prediction and its Aging-associated Bioactivities</b></div><br><br>
 An advanced transfer learning framework utilizing spatiotemporal information from phase-contrast images to predict yeast cell age at single-cell resolution. In addition, CamAge integrates predictive models for various aging-related biological processes, such as genomic instability, reactive oxygen species, mitochondrial content, and potential, among others, and also calculates cellular morphometric parameters.
 
-<div align="center"><h3> CamAge Docker container<h3></div>
 
 #### CamAge Docker container
 This is the repo of the official [Docker image]() for **CamAge**.
@@ -80,7 +79,7 @@ $ segmenter -id raw_input_folder -od segmenter_output_folder
 | id | Input the folder path containing the raw images of yeast cells. |
 | od | Output folder path for the segmented images |
 
-<b>returns:<br></b>
+<b>Returns:<br></b>
 
 ~ masks: segmented file for the raw images <br>
 ~ preprocessed_images: preprocessed images <br>
