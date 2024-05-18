@@ -110,7 +110,7 @@ $ segmenter -id raw_input_folder -od segmenter_output_folder
 
 
 ## 2. Predictor
-This command processes raw yeast images, converting them into single-cell yeast images and providing CamAge predictions.
+This command processes raw yeast images, converts them into single-cell yeast images, and provides CamAge predictions.
 
 <b>Basic Usage</b>
 ```
