@@ -18,22 +18,22 @@ You can find instructions for installing and running Docker on any PC using the 
 2. [MacOS](https://docs.docker.com/desktop/install/mac-install/)
 3. [Linux](https://docs.docker.com/desktop/install/linux-install/)
 
-<b>Pulling the CamAge Image</b>
+<b>Pulling the CamAge Image</b><br>
 Pull the **CamAge** image from Docker Hub by running the following command in your terminal:
 ```
 $ docker pull 
 ```
-<b>Verifying the Image</b>
+<b>Verifying the Image</b><br>
 Verify the new image has been created using the **docker images** command.
 ```
 $ docker images
 ```
-<b>Accessing the Docker Image Terminal</b>
+<b>Accessing the Docker Image Terminal</b><br>
 To access the terminal of a Docker image, you can use the **docker run** command with the **-it** option.
 ```
 $ docker run -it <image-name> bash
 ```
-<b>Managing Containers</b>
+<b>Managing Containers</b><br>
 Replace **<image-name\>** with the name or ID of the Docker image of **CamAge**.
 
 Find the ID of the currently running container for **input** and **output**.
