@@ -18,7 +18,7 @@ You can find instructions for installing and running Docker on any PC using the 
 2. [MacOS](https://docs.docker.com/desktop/install/mac-install/)
 3. [Linux](https://docs.docker.com/desktop/install/linux-install/)
 
-<b>Pulling the CamAge Image</b><br>
+<h2>Pulling the CamAge Image</h2><br>
 Pull the **CamAge** image from Docker Hub by running the following command in your terminal:
 ```
 $ docker pull 
