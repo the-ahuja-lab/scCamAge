@@ -17,6 +17,9 @@ You can find instructions for installing and running Docker on any PC using the 
 1. [Windows](https://docs.docker.com/desktop/install/windows-install/)
 2. [MacOS](https://docs.docker.com/desktop/install/mac-install/)
 3. [Linux](https://docs.docker.com/desktop/install/linux-install/)
+---
+
+---
 
 <h2>Pulling the CamAge Image</h2>
 
@@ -37,6 +40,10 @@ To access the terminal of a Docker image, you can use the **docker run** command
 ```
 $ docker run -it <image-name> bash
 ```
+---
+
+---
+
 <h2>Managing Containers</h2><br>
 
 Replace **<image-name\>** with the name or ID of the Docker image of **CamAge**.
@@ -50,6 +57,9 @@ To start the container again, access its terminal.
 $ docker start <container-ID>
 $ docker exec -it <container-ID> bash
 ```
+---
+
+---
 
 ## Input/Output
 
@@ -74,6 +84,9 @@ To write a file from the container, use the **docker cp** command to copy the fi
 $ docker cp container_id:WDir/file-name .
 ```
 This command will copy the **folder** from the **CamAge** container with ID **container_id** under the WDir/ directory inside the container to the host's current directory.
+---
+
+---
 
 ## Running **CamAge**
 There are two CamAge Docker images available: one optimized for GPU usage and the other for CPU. Users can select the appropriate image based on their specific requirements.
