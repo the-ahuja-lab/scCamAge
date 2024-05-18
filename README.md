@@ -36,7 +36,7 @@ $ docker images
 ```
 <h3>Accessing the Docker Image Terminal</h3><br>
 
-To access the terminal of a Docker image, you can use the **docker run** command with the **-it** option.
+To access the terminal of a **Docker container**, use the docker run command with the **-it** option.
 ```
 $ docker run -it <image-name> bash
 ```
