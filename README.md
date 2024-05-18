@@ -73,14 +73,14 @@ This command segments yeast cell images.
 ```
 $ segmenter -id raw_input_folder -od segmenter_output_folder
 ```
-Additional arguments:
+<b>Additional arguments:</b>
 
 | Arguments | Description |
 | -------- | -------- |
 | id | Input the folder path containing the raw images of yeast cells. |
 | od | Output folder path for the segmented images |
 
-returns:<br><br>
+<b>returns:<br></b>
 
 ~ masks: segmented file for the raw images <br>
 ~ preprocessed_images: preprocessed images <br>
