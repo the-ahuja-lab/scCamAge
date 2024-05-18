@@ -88,25 +88,35 @@ $ segmenter -id raw_input_folder -od segmenter_output_folder
 
 
 
-## 2. predictor
-This command converts the raw yeast images to single-cell yeast images and provides the CamAge predictions.
+## 2. Predictor
+This command processes raw yeast images, converting them into single-cell yeast images and providing CamAge predictions.
+
+<b>Basic Usage</b>
 ```
 $ predictor -id raw_input_folder -od prediction_output -segmented segmenter_output_folder -SCImages sc_output_folder
 ```
+<b> Advanced Usage</b>
 ```
 $ predictor -id raw_input_folder -od prediction_output -segmented segmenter_output_folder -SCImages sc_output_folder explainability -image_features -num_features 3 -bio_prediction
 ```
-Additional arguments:
+<b>Additional arguments:</b>
 
 | Arguments | Description |
 | -------- | -------- |
-| id | Input the folder path containing the raw images of yeast cells. |
+| id | Input the folder path containing the raw images of yeast cells|
 | od | Output folder path for the CamAge predictions|
-| segmented | Output folder path for the CamAge predictions|
-| SCImages | Output folder path for single yeast images|
-| explainability | explainability for the predictions|
-| num_features | Top features for explainaibiltiy|
-| image_features | For bioactivity predictions|
-| bio_prediction | bioactivity predictions|
+| segmented | Output folder path for the segmented images|
+| SCImages | Output folder path for single-cell yeast images|
+| explainability | Generate explainability plots for the predictions|
+| num_features | Number of top features to include for explainability|
+| image_features | Include image features for bioactivity predictions|
+| bio_prediction | Generate bioactivity predictions|
+
+<b>Returns:<br></b>
+
+~ Single yeast cell images
+~ Morphometric features
+~ A .csv file of CamAge predictions
+~ Explainability plots for predictions of each image
 
 
