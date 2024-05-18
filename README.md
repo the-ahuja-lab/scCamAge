@@ -82,11 +82,9 @@ Additional arguments:
 
 returns:
 
-| Folder/File | Description |
-| -------- | -------- |
-| masks | segmented file for the raw images |
-| preprocessed_images | preprocessed images |
-| compressed_masks.csv | compressed masked .csv for images |
+~ masks: segmented file for the raw images 
+~ preprocessed_images: preprocessed images 
+~ compressed_masks.csv: compressed masked .csv for images 
 
 
 
