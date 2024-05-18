@@ -23,7 +23,7 @@ You can find instructions for installing and running Docker on any PC using the 
 
 <h3>Pulling the CamAge Image</h3>
 
-Pull the **CamAge** image from Docker Hub by running the following command in your terminal:
+Pull the **CamAge image** from Docker Hub by running the following command in your terminal:
 
 ```
 $ docker pull 
