@@ -40,9 +40,6 @@ To access the terminal of a Docker image, you can use the **docker run** command
 ```
 $ docker run -it <image-name> bash
 ```
----
-
----
 
 <h2>Managing Containers</h2><br>
 
@@ -84,6 +81,7 @@ To write a file from the container, use the **docker cp** command to copy the fi
 $ docker cp container_id:WDir/file-name .
 ```
 This command will copy the **folder** from the **CamAge** container with ID **container_id** under the WDir/ directory inside the container to the host's current directory.
+
 ---
 
 ---
