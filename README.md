@@ -104,8 +104,8 @@ $ segmenter -id raw_input_folder -od segmenter_output_folder
 <b>Returns:</b>
 
 ~ masks: segmented file for the raw images <br>
-~ preprocessed_images: preprocessed images <br>
-~ compressed_masks.csv: compressed masked .csv for images <br>
+~ preprocessed_images: preprocessed images of raw yeast cells <br>
+~ compressed_masks.csv: compressed masked .csv for raw yeast cells <br>
 
 
 
