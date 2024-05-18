@@ -28,20 +28,20 @@ Pull the **CamAge** image from Docker Hub by running the following command in yo
 ```
 $ docker pull 
 ```
-<h2>Verifying the Image</h2><br>
+<h3>Verifying the Image</h3><br>
 
 Verify the new image has been created using the **docker images** command.
 ```
 $ docker images
 ```
-<h2>Accessing the Docker Image Terminal</h2><br>
+<h3>Accessing the Docker Image Terminal</h3><br>
 
 To access the terminal of a Docker image, you can use the **docker run** command with the **-it** option.
 ```
 $ docker run -it <image-name> bash
 ```
 
-<h2>Managing Containers</h2><br>
+<h3>Managing Containers</h3><br>
 
 Replace **<image-name\>** with the name or ID of the Docker image of **CamAge**.
 
