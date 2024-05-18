@@ -61,22 +61,22 @@ $ docker exec -it <container-ID> bash
 ## Input/Output
 
 ### Input 
-Find the ID of the currently running container, which was just executed using the **docker ps -a** command.
+Find the ID of the running container using the **docker ps -a** command.
 ```
 $ docker ps -a
 ```
-To write a file to the container, use the **docker cp** command to copy the file from the host to the container.
+To write a file to the container, use the **docker cp** command to copy it from the host to the container.
 ```
 $ docker cp file container_id:WDir/
 ```
 This command will copy the **folder** from the host's current directory to the **CamAge** container with ID **container_id** at the WDir/ directory inside the container.
 
 ### Output
-Find the ID of the currently running container, which was just executed using the **docker ps -a** command.
+Find the ID of the running container using the **docker ps -a** command.
 ```
 $ docker ps -a
 ```
-To write a file from the container, use the **docker cp** command to copy the file from the container to the host.
+To write a file from the container, use the **docker cp** command to copy it to the host.
 ```
 $ docker cp container_id:WDir/file-name .
 ```
@@ -86,10 +86,10 @@ This command will copy the **folder** from the **CamAge** container with ID **co
 
 ---
 
-## Running **CamAge**
+## Running CamAge
 There are two CamAge Docker images available: one optimized for GPU usage and the other for CPU. Users can select the appropriate image based on their specific requirements.
 
-## 1. segmenter
+## 1. Segmenter
 This command segments yeast cell images.
 ```
 $ segmenter -id raw_input_folder -od segmenter_output_folder
@@ -109,7 +109,7 @@ $ segmenter -id raw_input_folder -od segmenter_output_folder
 
 
 
-## 2. predictor
+## 2. Predictor
 This command processes raw yeast images, converting them into single-cell yeast images and providing CamAge predictions.
 
 <b>Basic Usage</b>
@@ -133,7 +133,7 @@ $ predictor -id raw_input_folder -od prediction_output -segmented segmenter_outp
 | image_features | Include image features for bioactivity predictions|
 | bio_prediction | Generate bioactivity predictions|
 
-<b>Returns:</b>
+<b>Returns:</b><br>
 ~ Single yeast cell images<br>
 ~ Morphometric features<br>
 ~ A .csv file of CamAge predictions<br>
