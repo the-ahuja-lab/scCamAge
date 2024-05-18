@@ -134,7 +134,7 @@ $ predictor -id raw_input_folder -od prediction_output -segmented segmenter_outp
 | bio_prediction | Generate bioactivity predictions|
 
 <b>Returns:</b><br>
-~ Single yeast cell images<br>
+~ Single-cell yeast images<br>
 ~ Morphometric features<br>
 ~ A .csv file of CamAge predictions<br>
 ~ Explainability plots for predictions of each image<br>
