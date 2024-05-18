@@ -90,7 +90,7 @@ $ segmenter -id raw_input_folder -od segmenter_output_folder
 | id | Input the folder path containing the raw images of yeast cells. |
 | od | Output folder path for the segmented images |
 
-<b>Returns:<br></b>
+<b>Returns:</b>
 
 ~ masks: segmented file for the raw images <br>
 ~ preprocessed_images: preprocessed images <br>
@@ -122,8 +122,7 @@ $ predictor -id raw_input_folder -od prediction_output -segmented segmenter_outp
 | image_features | Include image features for bioactivity predictions|
 | bio_prediction | Generate bioactivity predictions|
 
-<b>Returns:<br></b>
-
+<b>Returns:</b>
 ~ Single yeast cell images<br>
 ~ Morphometric features<br>
 ~ A .csv file of CamAge predictions<br>
