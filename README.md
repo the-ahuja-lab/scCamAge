@@ -80,11 +80,11 @@ Additional arguments:
 | id | Input the folder path containing the raw images of yeast cells. |
 | od | Output folder path for the segmented images |
 
-returns:
+returns:<br><br>
 
-~ masks: segmented file for the raw images 
-~ preprocessed_images: preprocessed images 
-~ compressed_masks.csv: compressed masked .csv for images 
+~ masks: segmented file for the raw images <br>
+~ preprocessed_images: preprocessed images <br>
+~ compressed_masks.csv: compressed masked .csv for images <br>
 
 
 
