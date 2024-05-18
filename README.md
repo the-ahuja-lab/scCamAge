@@ -114,9 +114,9 @@ $ predictor -id raw_input_folder -od prediction_output -segmented segmenter_outp
 
 <b>Returns:<br></b>
 
-~ Single yeast cell images
-~ Morphometric features
-~ A .csv file of CamAge predictions
-~ Explainability plots for predictions of each image
+~ Single yeast cell images<br>
+~ Morphometric features<br>
+~ A .csv file of CamAge predictions<br>
+~ Explainability plots for predictions of each image<br>
 
 
