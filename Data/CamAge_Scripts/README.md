@@ -22,7 +22,6 @@ This section provides detailed steps for using the segmentation module.
 
 ---
 
----
 
 1. Use conda environment yeastsegmentation
 
@@ -45,7 +44,6 @@ python segmentation.py
 
 ---
 
----
 
 ## Section 3: CamAge Predictor module
 
@@ -67,7 +65,6 @@ conda activate CamAge
 
 ---
 
----
 
 ## NOTE: Use the following notebook to retrain models using CamAge weight
 
