@@ -142,8 +142,8 @@ $ predictor -id raw_input_folder -od prediction_output -segmented segmenter_outp
 <br>
 
 ## 1. Scripts
-Detailed description on how to use scripts of CamAge is available at <b>Data/CamAge_Scripts</b>
+Detailed instructions on using the CamAge scripts are available at <b>Data/CamAge_Scripts</b>
 
 ## 2. Datasets
-To download the datasets that have been used in making CamAge is available on [Zenodo](https://zenodo.org/records/11209124)
+The datasets used for developing CamAge can be downloaded from [Zenodo](https://zenodo.org/records/11209124)
 
