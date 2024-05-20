@@ -17,7 +17,7 @@ You can find instructions for installing and running Docker on any PC using the 
 1. [Windows](https://docs.docker.com/desktop/install/windows-install/)
 2. [MacOS](https://docs.docker.com/desktop/install/mac-install/)
 3. [Linux](https://docs.docker.com/desktop/install/linux-install/)
----
+
 
 ---
 
@@ -56,7 +56,6 @@ $ docker exec -it <container-ID> bash
 ```
 ---
 
----
 
 ## Input/Output
 
@@ -84,7 +83,7 @@ This command will copy the **folder** from the **CamAge** container with ID **co
 
 ---
 
----
+
 
 ## Running CamAge
 There are two CamAge Docker images available: one optimized for GPU usage and the other for CPU. Users can select the appropriate image based on their specific requirements.
