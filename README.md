@@ -138,4 +138,12 @@ $ predictor -id raw_input_folder -od prediction_output -segmented segmenter_outp
 ~ A .csv file of CamAge predictions<br>
 ~ Explainability plots for predictions of each image<br>
 
+<div align="center"> <h1>Additional Details </h1> </div>
+<br>
+
+## 1. Scripts
+Detailed description on how to use scripts of CamAge is available at <b>Data/CamAge_Scripts</b>
+
+## 2. Datasets
+To download the datasets that have been used in making CamAge is available on [Zenodo](https://zenodo.org/records/11209124)
 
