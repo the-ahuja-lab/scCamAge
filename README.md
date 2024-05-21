@@ -26,7 +26,7 @@ You can find instructions for installing and running Docker on any PC using the 
 Pull the **CamAge image** from Docker Hub by running the following command in your terminal:
 
 ```
-$ docker pull 
+$ docker pull ahujalab/camage
 ```
 <h3>Verifying the Image</h3><br>
 
