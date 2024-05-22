@@ -11,7 +11,7 @@ An advanced transfer learning framework utilizing spatiotemporal information fro
 <br>
 <br>
 <div align="center">
-<img src="/Data/Images/Docker_CamAge.png"></div>
+<img src="/Data/Images/Docker_CamAge1.png"></div>
 <br>
 
 This is the repo of the official [Docker image](https://hub.docker.com/r/ahujalab/camage) for **CamAge**.
