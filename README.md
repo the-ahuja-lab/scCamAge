@@ -151,5 +151,4 @@ Detailed instructions on using the CamAge scripts are available at <b>Data/CamAg
 ## 2. Datasets
 The datasets used for developing CamAge can be downloaded from [Zenodo](https://zenodo.org/records/11209124)
 
-## 3. Reproducibility
-Code to reproduce the main figures of CamAge can be downloaded from [Zenodo](https://zenodo.org/records/11209124)
+
