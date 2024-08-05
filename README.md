@@ -14,7 +14,7 @@ An advanced transfer learning framework utilizing spatiotemporal information fro
 <img src="/Data/Images/Docker_CamAge1.png"></div>
 <br>
 
-This is the repo of the official [Docker image](https://hub.docker.com/r/ahujalab/camage) for **CamAge**.
+This is the repo of the official [Docker image](https://hub.docker.com/r/ahujalab/camage) for **scCamAge**.
 
 
 You can find instructions for installing and running Docker on any PC using the following [links](https://docs.docker.com/engine/install/) 
@@ -25,9 +25,9 @@ You can find instructions for installing and running Docker on any PC using the 
 
 ---
 
-<h3>Pulling the CamAge Image</h3>
+<h3>Pulling the scCamAge Image</h3>
 
-Pull the **CamAge image** from Docker Hub by running the following command in your terminal:
+Pull the **scCamAge image** from Docker Hub by running the following command in your terminal:
 
 ```
 $ docker pull ahujalab/camage
@@ -47,7 +47,7 @@ $ docker run -it <image-name> bash
 
 <h3>Managing Containers</h3><br>
 
-Replace **<image-name\>** with the name or ID of the Docker image of **CamAge**.
+Replace **<image-name\>** with the name or ID of the Docker image of **scCamAge**.
 
 Find the ID of the currently running container for **input** and **output**.
 ```
@@ -72,7 +72,7 @@ To write a file to the container, use the **docker cp** command to copy it from 
 ```
 $ docker cp file container_id:WDir/
 ```
-This command will copy the **folder** from the host's current directory to the **CamAge** container with ID **container_id** at the WDir/ directory inside the container.
+This command will copy the **folder** from the host's current directory to the **scCamAge** container with ID **container_id** at the WDir/ directory inside the container.
 
 ### Output
 Find the ID of the running container using the **docker ps -a** command.
@@ -83,14 +83,14 @@ To write a file from the container, use the **docker cp** command to copy it to 
 ```
 $ docker cp container_id:WDir/file-name .
 ```
-This command will copy the **folder** from the **CamAge** container with ID **container_id** under the WDir/ directory inside the container to the host's current directory.
+This command will copy the **folder** from the **scCamAge** container with ID **container_id** under the WDir/ directory inside the container to the host's current directory.
 
 ---
 
 
 
 ## Running CamAge
-There are two CamAge Docker images available: one optimized for GPU usage and the other for CPU. Users can select the appropriate image based on their specific requirements.
+There are two scCamAge Docker images available: one optimized for GPU usage and the other for CPU. Users can select the appropriate image based on their specific requirements.
 
 ## 1. Segmenter
 This command segments yeast cell images.
@@ -113,7 +113,7 @@ $ segmenter -id raw_input_folder -od segmenter_output_folder
 
 
 ## 2. Predictor
-This command processes raw yeast images, converts them into single-cell yeast images, and provides CamAge predictions.
+This command processes raw yeast images, converts them into single-cell yeast images, and provides scCamAge predictions.
 
 <b>Basic Usage</b>
 ```
