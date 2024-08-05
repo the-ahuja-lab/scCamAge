@@ -3,8 +3,8 @@
 <div align="center">
 <img src="Data/Images/CamAge.png"></div>
 
-<div align="center"><b>An Image-based Intelligent Lens for single-cell Age Prediction and its Aging-associated Bioactivities</b></div><br><br>
-An advanced transfer learning framework utilizing spatiotemporal information from phase-contrast images to predict yeast cell age at single-cell resolution. In addition, CamAge integrates predictive models for various aging-related biological processes, such as genomic instability, reactive oxygen species, mitochondrial content, and potential, among others, and also calculates cellular morphometric parameters.
+<div align="center"><b>Single-Cell CamAge: A Context-Aware Prediction Engine for Aging-Associated Bioactivities and Morphometrics</b></div><br><br>
+An advanced transfer learning framework utilizing spatiotemporal information from phase-contrast images to predict yeast cell age at single-cell resolution. In addition, scCamAge integrates predictive models for various aging-related biological processes, such as genomic instability, reactive oxygen species, mitochondrial content, and potential, among others, and also calculates cellular morphometric parameters.
 
 
 <div align="center"> <h1>scCamAge Docker Container </h1> </div>
@@ -128,7 +128,7 @@ $ predictor -id raw_input_folder -od prediction_output -segmented segmenter_outp
 | Arguments | Description |
 | -------- | -------- |
 | id | Input the folder path containing the raw images of yeast cells|
-| od | Output folder path for the CamAge predictions|
+| od | Output folder path for the scCamAge predictions|
 | segmented | Output folder path for the segmented images|
 | SCImages | Output folder path for single-cell yeast images|
 | explainability | Generate explainability plots for the predictions|
@@ -139,16 +139,16 @@ $ predictor -id raw_input_folder -od prediction_output -segmented segmenter_outp
 <b>Returns:</b><br>
 ~ Single-cell yeast images<br>
 ~ Morphometric features<br>
-~ A .csv file containing CamAge predictions and bioactivity predictions<br>
+~ A .csv file containing scCamAge predictions and bioactivity predictions<br>
 ~ Explainability plots for predictions of each image<br>
 
 <div align="center"> <h1>Additional Details </h1> </div>
 <br>
 
 ## 1. Scripts
-Detailed instructions on using the CamAge scripts are available at <b>Data/CamAge_Scripts</b>
+Detailed instructions on using the scCamAge scripts are available at <b>Data/CamAge_Scripts</b>
 
 ## 2. Datasets
-The datasets used for developing CamAge can be downloaded from [Zenodo](https://zenodo.org/records/11209124)
+The datasets used for developing scCamAge can be downloaded from [Zenodo](https://zenodo.org/records/11209124)
 
 
