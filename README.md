@@ -7,7 +7,7 @@
 An advanced transfer learning framework utilizing spatiotemporal information from phase-contrast images to predict yeast cell age at single-cell resolution. In addition, CamAge integrates predictive models for various aging-related biological processes, such as genomic instability, reactive oxygen species, mitochondrial content, and potential, among others, and also calculates cellular morphometric parameters.
 
 
-<div align="center"> <h1>CamAge Docker Container </h1> </div>
+<div align="center"> <h1>scCamAge Docker Container </h1> </div>
 <br>
 <br>
 <div align="center">
