@@ -1,9 +1,9 @@
 <div align="center"> <h1>scCamAge </h1> </div>
  <br>
 <div align="center">
-<img src="Data/Images/CamAge.png"></div>
+<img src="Data/Images/scCamAge.png"></div>
 
-<div align="center"><b>Single-Cell CamAge: A Context-Aware Prediction Engine for Aging-Associated Bioactivities and Morphometrics</b></div><br><br>
+<div align="center"><b>scCamAge: A Context-Aware Prediction Engine for Aging-Associated Bioactivities and Morphometrics</b></div><br><br>
 An advanced transfer learning framework utilizing spatiotemporal information from phase-contrast images to predict yeast cell age at single-cell resolution. In addition, scCamAge integrates predictive models for various aging-related biological processes, such as genomic instability, reactive oxygen species, mitochondrial content, and potential, among others, and also calculates cellular morphometric parameters.
 
 
