@@ -89,7 +89,7 @@ This command will copy the **folder** from the **scCamAge** container with ID **
 
 
 
-## Running CamAge
+## Running scCamAge
 There are two scCamAge Docker images available: one optimized for GPU usage and the other for CPU. Users can select the appropriate image based on their specific requirements.
 
 ## 1. Segmenter
