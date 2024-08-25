@@ -121,7 +121,7 @@ $ predictor -id raw_input_folder -od prediction_output -segmented segmenter_outp
 ```
 <b> Advanced Usage</b>
 ```
-$ predictor -id raw_input_folder -od prediction_output -segmented segmenter_output_folder -SCImages sc_output_folder explainability -image_features -num_features 3 -bio_prediction
+$ predictor -id raw_input_folder -od prediction_output -segmented segmenter_output_folder -SCImages sc_output_folder -explainability -image_features -num_features 3 -bio_prediction
 ```
 <b>Additional arguments:</b>
 
