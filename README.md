@@ -117,13 +117,11 @@ This command processes raw yeast images, converts them into single-cell yeast im
 
 <b>Basic Usage</b>
 ```
-$ predictor -id raw_input_folder -od prediction_output -segmented segmenter_output_folder
--SCImages sc_output_folder
+$ predictor -id raw_input_folder -od prediction_output -segmented segmenter_output_folder -SCImages sc_output_folder
 ```
 <b> Advanced Usage</b>
 ```
-$ predictor -id raw_input_folder -od prediction_output -segmented segmenter_output_folder
--SCImages sc_output_folder -explainability -image_features -num_features 3 -bio_prediction
+$ predictor -id raw_input_folder -od prediction_output -segmented segmenter_output_folder -SCImages sc_output_folder -explainability -image_features -num_features 3 -bio_prediction
 ```
 <b>Additional arguments:</b>
 
